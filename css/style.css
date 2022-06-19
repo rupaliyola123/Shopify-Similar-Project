@@ -1,0 +1,133 @@
+.header{
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    padding: auto;
+}
+
+body{
+    margin-top: 0;
+    text-align: center;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h6{
+    padding-bottom: 5px;
+}
+
+.read-more{
+    text-align: justify;
+}
+
+.add-padding{
+    padding: 15px 15px 15px 15px;
+
+}
+
+.navbar{
+    padding: 20px 20px;
+}
+
+.row-text{
+    text-align: center;
+}
+
+.add-to-cart{
+    text-align: center;
+    background-color: #d3134f;
+    color: white;
+}
+
+.big-image{
+    padding-bottom: 20px;
+}
+
+.column {
+    /* float: left; */
+    width: 12.5%;
+    padding: 5px;
+}
+
+.col-lg-2{
+    padding: 0px 7.5px 0px 7.5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.round-img{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.button-colour-pink{
+    background-color: #d3134f;
+    color: white;
+
+}
+
+.in-1-line{
+    display: inline-flex;
+    margin-block-end: auto;
+}
+
+.button-colour-pink{
+    margin-block-end: auto;
+}
+
+.insta-link{
+    width: 20%;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+}
+
+.policy{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.icon-1{
+    width: 33.33%;
+    float:left; /* add this */
+    border-right: 1px solid grey; 
+
+}
+
+.icon-2{
+    width: 33.33%;
+    float: left;
+    border-right: 1px solid grey; 
+}
+
+.icon-3{
+    width: 33.33%;
+    overflow: hidden; 
+}
+
+
+.footer{
+    background-color: #ffafb6;
+}
+
+
+/* @media screen and (min-width: 750px){
+    .col-lg-2{
+
+    }
+} */
